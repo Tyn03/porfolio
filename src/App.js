@@ -1,14 +1,11 @@
-import logo from './logo.svg';
+
 import './App.css';
 import Navbar from"./components/navbar";
-import Hero from"./components/herosection";
-import Skill from"./components/skills";
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import About from "./components/about"; // Import your components for each route
 import Projects from "./components/projects";
-import AV from "./components/image/avatar.jpg";
-import TextAnimation from './components/animation';
-import styled, { keyframes } from "styled-components"
+import Root from "./components/root";
+
 
 function App() {
   return (
@@ -16,8 +13,12 @@ function App() {
       <Router>
       <Navbar/>
 
+        
+        
+      
       
       <Routes>
+      <Route path="/" element={<Root />} />
         <Route path="/about" element={<About />} />
         <Route path="/projects" element={<Projects />} />
         

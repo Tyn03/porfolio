@@ -1,0 +1,43 @@
+
+.Root .content img{
+    height: 15%;
+    width: 15%;
+    border: 1px solid black;
+    border-radius: 200%;
+    padding : 10% 15%;
+  }
+.Root .content h3{
+    color: white;
+    font-size: 50px;
+    padding : 0px;
+  }
+  
+  
+  
+.Root .content{
+    display: flex;
+    align-items: center;
+  }
+  .Root .content .text{
+    color : white;
+}
+
+.Root .content .TextAnimation{
+    display: flex;
+    align-items: center;
+    
+}
+
+.Root .content .TextAnimation a{
+    display: flex;
+    align-items: center;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+
+
+.Root .content p{
+  font-size: 20px;
+  font-style: italic;
+}
