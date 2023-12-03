@@ -9,12 +9,16 @@ import IG from "../image/instagram.png"
 const Skill = () => {
     return (
         <div className="About">
-            
-            <h3>Hello, My name is Duy. I am currently a student at INSA Centre Val de
-        Loire , Bourges, France. Technology is my passion, <br/> I really like playing
-        with computer including both software and hardware.My actual study
-        field is software engineer,<br/> I am a software developer being on my way
-        to become a great technician. Great to meet you</h3>
+            <div className="AboutMe">
+                <h2><span className="blue-text">About me</span></h2>
+                <p>
+                Hello, My name is Khang. I am currently a student at INSA Centre Val de Loire , Bourges, France. My actual study field is software engineer .<br/> I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering <br/> high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.
+                </p>
+            </div>
+        
+            <div className="SkillText">
+                <h2> <span className="blue-text">Skills </span></h2>
+            </div>
             
             
 

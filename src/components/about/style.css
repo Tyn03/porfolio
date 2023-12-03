@@ -4,10 +4,25 @@
     text-align: justify;
 }
 
-.About h3{
-   
-    padding:  50px 70px ;
+.About .AboutMe h2{
+    padding : 0px 70px;
+    font-size: 40px;
+}
+.AboutMe p{
+    padding:  0px 70px ;
+    font-size: 22px;
+    margin-bottom: 150px;
     
+}
+.blue-text{
+    color : rgba(0,139,255,0.8);
+}
+
+
+
+.SkillText h2{
+    padding : 0px 70px;
+    font-size: 40px;
 }
 
 .Education{

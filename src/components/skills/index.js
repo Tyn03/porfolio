@@ -2,15 +2,23 @@ import React from "react";
 import "./style.css"
 import Atom from "../image/atom.png";
 import TS from "../image/typescript.png";
-
-
+import NJ from "../image/nodejs.png";
+import PG from "../image/postgresql.png";
+import FB from "../image/firebase.png";
+import EX from "../image/express.png";
+import AS from "../image/AndroidStudio.png";
+import KL from "../image/kotlin.png";
+import IT from "../image/intellj.png";
+import LN from "../image/linux.png";
+import GH from "../image/github.png";
+import VS from "../image/VisualCode.png";
 const Skill = () => {
     return (
         <div className = "Skill">
             <div className="SkillElement">
                 <div className="WebDevelopper">
                     <div className="FrontEnd">
-                        Frontend
+                        <p>Frontend</p>
                         <div className="Element">
                             <div className="SkillItem"> 
                                 <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt=""/>
@@ -45,35 +53,31 @@ const Skill = () => {
                     </div>
 
                     <div className="Backend">
-                        Backend
+                        <p>Backend</p>
                         <div className="Element">
                             <div className="SkillItem"> 
-                                <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt=""/>
-                                <figcaption>HTML</figcaption>
+                                <img src={NJ} alt=""/>
+                                <figcaption>Node JS</figcaption>
                             </div>
                             
                             <div className="SkillItem">
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt=""/>
-                                <figcaption>CSS</figcaption> 
+                                <img src = {EX} alt=""/>
+                                <figcaption>Express JS</figcaption> 
                             </div>
                             
-                            <div className="SkillItem">
-                                <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt=""/>
-                                <figcaption>JavaScript</figcaption>
-                            </div>
                         
                         </div>
 
 
                         <div className="Element">
                             <div className="SkillItem"> 
-                                <img src= {Atom} alt=""/>
-                                <figcaption>React</figcaption>
+                                <img src= {PG} alt=""/>
+                                <figcaption>Postgre SQL</figcaption>
                             </div>
                             
                             <div className="SkillItem">
-                                <img src = {TS} alt=""/>
-                                <figcaption>TypeScript</figcaption> 
+                                <img src = {FB} alt=""/>
+                                <figcaption>Firebase</figcaption> 
                             </div>
                         </div>
 
@@ -84,56 +88,42 @@ const Skill = () => {
 
                 <div className="ToolsAndOther">
                     <div className="Tools">
-                            Tools
+                            <p>Android</p>
                             <div className="Element">
                                 <div className="SkillItem"> 
-                                    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt=""/>
-                                    <figcaption>HTML</figcaption>
+                                    <img src={KL} alt=""/>
+                                    <figcaption>Kotlin</figcaption>
                                 </div>
                                 
                                 <div className="SkillItem">
-                                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt=""/>
-                                    <figcaption>CSS</figcaption> 
+                                    <img src = {AS} alt=""/>
+                                    <figcaption>Android Studio</figcaption> 
                                 </div>
                                 
-                                <div className="SkillItem">
-                                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt=""/>
-                                    <figcaption>JavaScript</figcaption>
-                                </div>
                             
                             </div>
 
 
-                            <div className="Element">
-                                <div className="SkillItem"> 
-                                    <img src= {Atom} alt=""/>
-                                    <figcaption>React</figcaption>
-                                </div>
-                                
-                                <div className="SkillItem">
-                                    <img src = {TS} alt=""/>
-                                    <figcaption>TypeScript</figcaption> 
-                                </div>
-                            </div>
+                            
 
                     </div>
                     
                     <div className="Others">
-                            Others
+                            <p>Others</p>
                             <div className="Element">
                                 <div className="SkillItem"> 
-                                    <img src="https://www.w3.org/html/logo/badge/html5-badge-h-solo.png" alt=""/>
-                                    <figcaption>HTML</figcaption>
+                                    <img src={GH} alt=""/>
+                                    <figcaption>Github</figcaption>
                                 </div>
                                 
                                 <div className="SkillItem">
-                                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d5/CSS3_logo_and_wordmark.svg/1452px-CSS3_logo_and_wordmark.svg.png" alt=""/>
-                                    <figcaption>CSS</figcaption> 
+                                    <img src = {VS} alt=""/>
+                                    <figcaption>VS Code</figcaption> 
                                 </div>
                                 
                                 <div className="SkillItem">
-                                    <img src = "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/800px-JavaScript-logo.png" alt=""/>
-                                    <figcaption>JavaScript</figcaption>
+                                    <img src = {LN} alt=""/>
+                                    <figcaption>Linux</figcaption>
                                 </div>
                             
                             </div>
@@ -141,14 +131,11 @@ const Skill = () => {
 
                             <div className="Element">
                                 <div className="SkillItem"> 
-                                    <img src= {Atom} alt=""/>
-                                    <figcaption>React</figcaption>
+                                    <img src= {IT} alt=""/>
+                                    <figcaption>Intellij Idea</figcaption>
                                 </div>
                                 
-                                <div className="SkillItem">
-                                    <img src = {TS} alt=""/>
-                                    <figcaption>TypeScript</figcaption> 
-                                </div>
+                                
                             </div>
 
                         

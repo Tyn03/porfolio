@@ -79,3 +79,19 @@ figcaption {
     border-color: purple;
 }
 
+.FrontEnd p{
+    font-size : 30px;
+}
+
+.Backend p{
+    font-size: 30px;
+}
+
+.Tools p{
+    font-size : 30px;
+}
+
+.Others p{
+    font-size: 30px;
+}
+
