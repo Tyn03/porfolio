@@ -1,5 +1,6 @@
 .Project{
     padding : 0px 10%;
+   
     
 }
 
@@ -52,14 +53,34 @@
     border-radius: 5px;
 }
 
-.PJ img{
+.PJ1 img{
     width : 50%;
     border: 2px solid white; 
     border-radius: 5px;
     margin-right: 50px; 
 }
-.PJ {
+.PJ1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10%;
+}
+
+
+.PJ2 img{
+    width : 55%;
+    border: 2px solid white; 
+    border-radius: 5px;
+    margin-right: 50px; 
+}
+.PJ2 {
     display: flex;
     align-items: center;
 
+}
+
+
+
+.PJ2 .Left  .Website a{
+    
+    margin-left: 20px;
 }
