@@ -22,7 +22,7 @@ const Skill = () => {
                             <h4>Web Music Player</h4>
                             <div className="Tools">
                                 <a >React Js</a>
-                                <a >Three Js</a>
+                                <a >Node Js</a>
                                 <a >Firebase</a>
                                     
                             </div>
@@ -34,8 +34,11 @@ const Skill = () => {
                     </div>
 
                     <div className="Website">
-                        <a href= "https://www.instagram.com/khangdoooo/">
+                        <a href= "https://github.com/Tyn03/SWeb">
                             <p>Source Code</p>    
+                        </a>
+                        <a href= "https://tyn03.github.io/SWeb/">
+                            <p>View Page</p>    
                         </a>
                     </div>
 
@@ -76,7 +79,7 @@ const Skill = () => {
                     </div>
 
                     <div className="Website">
-                        <a href= "https://www.instagram.com/khangdoooo/">
+                        <a href= "https://github.com/Tyn03/solar-system">
                             <p>Source Code</p>    
                         </a>
                         <a href= "https://antiinsa.github.io/solar-demo/">
