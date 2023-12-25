@@ -1,6 +1,7 @@
 import React from "react";
 import "./style.css";
 import IM from "../image/imageweb.PNG"
+import SL from "../image/solar.PNG"
 const Skill = () => {
     return (
         <div className="Project">
@@ -10,7 +11,7 @@ const Skill = () => {
                     <h4>what <span class="blue-text">I have built</span></h4>
             </div>
             
-            <div className="PJ">
+            <div className="PJ1">
                 
                 <img src= {IM} alt=""/>
                 
@@ -21,7 +22,7 @@ const Skill = () => {
                             <h4>Web Music Player</h4>
                             <div className="Tools">
                                 <a >React Js</a>
-                                <a >Node Js</a>
+                                <a >Three Js</a>
                                 <a >Firebase</a>
                                     
                             </div>
@@ -37,6 +38,10 @@ const Skill = () => {
                             <p>Source Code</p>    
                         </a>
                     </div>
+
+
+
+                    
                     
                 </div>
 
@@ -44,12 +49,50 @@ const Skill = () => {
                 
             </div>
 
-                
-            
-           
 
-        
-            
+
+
+
+            <div className="PJ2">
+                
+                <img src= {SL} alt=""/>
+                
+
+                <div className="Left">
+                    <div className="List">
+                        <div className="P1">
+                            <h4>Solar System</h4>
+                            <div className="Tools">
+                                <a >React Js</a>
+                                <a >Three Js</a>
+                                
+                                    
+                            </div>
+                        </div>
+                    </div>
+
+                    <div className="TextDescribe">
+                            <p>The dynamic system that consists of the Sun, planets, moons, asteroids, <br/> comets, and other celestial objects bound together by gravity. .</p>
+                    </div>
+
+                    <div className="Website">
+                        <a href= "https://www.instagram.com/khangdoooo/">
+                            <p>Source Code</p>    
+                        </a>
+                        <a href= "https://antiinsa.github.io/solar-demo/">
+                            <p>View Page</p>    
+                        </a>
+                    </div>
+
+
+
+                    
+                    
+                </div>
+
+                
+                
+            </div>
         </div>
     );
 }

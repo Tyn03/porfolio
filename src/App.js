@@ -10,10 +10,16 @@ import Root from "./components/root";
 
 function App() {
   return (
+
+
+
     <div className="App">
-      
       <Router>
       <Navbar/>
+
+        
+        
+      
       
       <Routes>
       <Route path="/porfolio" element={<Root />} />
